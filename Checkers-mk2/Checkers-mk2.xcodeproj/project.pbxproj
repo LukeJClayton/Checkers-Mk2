@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B32CD1D11CA05D70000919F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B32CD1D01CA05D70000919F7 /* main.m */; };
+		B32CD1D41CA05D70000919F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B32CD1D31CA05D70000919F7 /* AppDelegate.m */; };
+		B32CD1D71CA05D70000919F7 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B32CD1D61CA05D70000919F7 /* GameScene.m */; };
+		B32CD1DC1CA05D70000919F7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32CD1DB1CA05D70000919F7 /* GameViewController.m */; };
+		B32CD1DF1CA05D70000919F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32CD1DD1CA05D70000919F7 /* Main.storyboard */; };
+		B32CD1E11CA05D70000919F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32CD1E01CA05D70000919F7 /* Assets.xcassets */; };
+		B32CD1E41CA05D70000919F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32CD1E21CA05D70000919F7 /* LaunchScreen.storyboard */; };
+		B32CD1EF1CA05D70000919F7 /* Checkers_mk2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B32CD1EE1CA05D70000919F7 /* Checkers_mk2Tests.m */; };
+		B32CD1FA1CA05D70000919F7 /* Checkers_mk2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B32CD1F91CA05D70000919F7 /* Checkers_mk2UITests.m */; };
+		B3348F501CAA8A0500CA828A /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = B3348F4F1CAA8A0500CA828A /* Vector.m */; };
+		B3348F531CAC371F00CA828A /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B3348F521CAC371F00CA828A /* MenuScene.m */; };
+		B3348F561CAC473C00CA828A /* RulesScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B3348F551CAC473C00CA828A /* RulesScreen.m */; };
+		B3348F591CAC5F8200CA828A /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B3348F581CAC5F8200CA828A /* GameOverScene.m */; };
+		B38936251CA17FB300E919F5 /* CheckerPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = B38936241CA17FB300E919F5 /* CheckerPiece.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B32CD1EB1CA05D70000919F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32CD1C41CA05D70000919F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B32CD1CB1CA05D70000919F7;
+			remoteInfo = "Checkers-mk2";
+		};
+		B32CD1F61CA05D70000919F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32CD1C41CA05D70000919F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B32CD1CB1CA05D70000919F7;
+			remoteInfo = "Checkers-mk2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B32CD1CC1CA05D70000919F7 /* Checkers-mk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Checkers-mk2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32CD1D01CA05D70000919F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B32CD1D21CA05D70000919F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B32CD1D31CA05D70000919F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B32CD1D51CA05D70000919F7 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B32CD1D61CA05D70000919F7 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B32CD1DA1CA05D70000919F7 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B32CD1DB1CA05D70000919F7 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B32CD1DE1CA05D70000919F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B32CD1E01CA05D70000919F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B32CD1E31CA05D70000919F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B32CD1E51CA05D70000919F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32CD1EA1CA05D70000919F7 /* Checkers-mk2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Checkers-mk2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32CD1EE1CA05D70000919F7 /* Checkers_mk2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Checkers_mk2Tests.m; sourceTree = "<group>"; };
+		B32CD1F01CA05D70000919F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32CD1F51CA05D70000919F7 /* Checkers-mk2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Checkers-mk2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32CD1F91CA05D70000919F7 /* Checkers_mk2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Checkers_mk2UITests.m; sourceTree = "<group>"; };
+		B32CD1FB1CA05D70000919F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3348F4E1CAA89A000CA828A /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		B3348F4F1CAA8A0500CA828A /* Vector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vector.m; sourceTree = "<group>"; };
+		B3348F511CAC371E00CA828A /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
+		B3348F521CAC371F00CA828A /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
+		B3348F541CAC473C00CA828A /* RulesScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulesScreen.h; sourceTree = "<group>"; };
+		B3348F551CAC473C00CA828A /* RulesScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulesScreen.m; sourceTree = "<group>"; };
+		B3348F571CAC5F8200CA828A /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		B3348F581CAC5F8200CA828A /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		B38936231CA17E9900E919F5 /* CheckerPiece.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckerPiece.h; sourceTree = "<group>"; };
+		B38936241CA17FB300E919F5 /* CheckerPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckerPiece.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B32CD1C91CA05D70000919F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32CD1E71CA05D70000919F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32CD1F21CA05D70000919F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B32CD1C31CA05D70000919F7 = {
+			isa = PBXGroup;
+			children = (
+				B32CD1CE1CA05D70000919F7 /* Checkers-mk2 */,
+				B32CD1ED1CA05D70000919F7 /* Checkers-mk2Tests */,
+				B32CD1F81CA05D70000919F7 /* Checkers-mk2UITests */,
+				B32CD1CD1CA05D70000919F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B32CD1CD1CA05D70000919F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B32CD1CC1CA05D70000919F7 /* Checkers-mk2.app */,
+				B32CD1EA1CA05D70000919F7 /* Checkers-mk2Tests.xctest */,
+				B32CD1F51CA05D70000919F7 /* Checkers-mk2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B32CD1CE1CA05D70000919F7 /* Checkers-mk2 */ = {
+			isa = PBXGroup;
+			children = (
+				B32CD1D21CA05D70000919F7 /* AppDelegate.h */,
+				B32CD1D31CA05D70000919F7 /* AppDelegate.m */,
+				B3348F511CAC371E00CA828A /* MenuScene.h */,
+				B3348F521CAC371F00CA828A /* MenuScene.m */,
+				B3348F541CAC473C00CA828A /* RulesScreen.h */,
+				B3348F551CAC473C00CA828A /* RulesScreen.m */,
+				B32CD1D51CA05D70000919F7 /* GameScene.h */,
+				B32CD1D61CA05D70000919F7 /* GameScene.m */,
+				B3348F571CAC5F8200CA828A /* GameOverScene.h */,
+				B3348F581CAC5F8200CA828A /* GameOverScene.m */,
+				B3348F4E1CAA89A000CA828A /* Vector.h */,
+				B3348F4F1CAA8A0500CA828A /* Vector.m */,
+				B38936231CA17E9900E919F5 /* CheckerPiece.h */,
+				B38936241CA17FB300E919F5 /* CheckerPiece.m */,
+				B32CD1DA1CA05D70000919F7 /* GameViewController.h */,
+				B32CD1DB1CA05D70000919F7 /* GameViewController.m */,
+				B32CD1DD1CA05D70000919F7 /* Main.storyboard */,
+				B32CD1E01CA05D70000919F7 /* Assets.xcassets */,
+				B32CD1E21CA05D70000919F7 /* LaunchScreen.storyboard */,
+				B32CD1E51CA05D70000919F7 /* Info.plist */,
+				B32CD1CF1CA05D70000919F7 /* Supporting Files */,
+			);
+			path = "Checkers-mk2";
+			sourceTree = "<group>";
+		};
+		B32CD1CF1CA05D70000919F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B32CD1D01CA05D70000919F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B32CD1ED1CA05D70000919F7 /* Checkers-mk2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B32CD1EE1CA05D70000919F7 /* Checkers_mk2Tests.m */,
+				B32CD1F01CA05D70000919F7 /* Info.plist */,
+			);
+			path = "Checkers-mk2Tests";
+			sourceTree = "<group>";
+		};
+		B32CD1F81CA05D70000919F7 /* Checkers-mk2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B32CD1F91CA05D70000919F7 /* Checkers_mk2UITests.m */,
+				B32CD1FB1CA05D70000919F7 /* Info.plist */,
+			);
+			path = "Checkers-mk2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B32CD1CB1CA05D70000919F7 /* Checkers-mk2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32CD1FE1CA05D70000919F7 /* Build configuration list for PBXNativeTarget "Checkers-mk2" */;
+			buildPhases = (
+				B32CD1C81CA05D70000919F7 /* Sources */,
+				B32CD1C91CA05D70000919F7 /* Frameworks */,
+				B32CD1CA1CA05D70000919F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Checkers-mk2";
+			productName = "Checkers-mk2";
+			productReference = B32CD1CC1CA05D70000919F7 /* Checkers-mk2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B32CD1E91CA05D70000919F7 /* Checkers-mk2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32CD2011CA05D70000919F7 /* Build configuration list for PBXNativeTarget "Checkers-mk2Tests" */;
+			buildPhases = (
+				B32CD1E61CA05D70000919F7 /* Sources */,
+				B32CD1E71CA05D70000919F7 /* Frameworks */,
+				B32CD1E81CA05D70000919F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32CD1EC1CA05D70000919F7 /* PBXTargetDependency */,
+			);
+			name = "Checkers-mk2Tests";
+			productName = "Checkers-mk2Tests";
+			productReference = B32CD1EA1CA05D70000919F7 /* Checkers-mk2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B32CD1F41CA05D70000919F7 /* Checkers-mk2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32CD2041CA05D70000919F7 /* Build configuration list for PBXNativeTarget "Checkers-mk2UITests" */;
+			buildPhases = (
+				B32CD1F11CA05D70000919F7 /* Sources */,
+				B32CD1F21CA05D70000919F7 /* Frameworks */,
+				B32CD1F31CA05D70000919F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32CD1F71CA05D70000919F7 /* PBXTargetDependency */,
+			);
+			name = "Checkers-mk2UITests";
+			productName = "Checkers-mk2UITests";
+			productReference = B32CD1F51CA05D70000919F7 /* Checkers-mk2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B32CD1C41CA05D70000919F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LukeClayton;
+				TargetAttributes = {
+					B32CD1CB1CA05D70000919F7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B32CD1E91CA05D70000919F7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B32CD1CB1CA05D70000919F7;
+					};
+					B32CD1F41CA05D70000919F7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B32CD1CB1CA05D70000919F7;
+					};
+				};
+			};
+			buildConfigurationList = B32CD1C71CA05D70000919F7 /* Build configuration list for PBXProject "Checkers-mk2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B32CD1C31CA05D70000919F7;
+			productRefGroup = B32CD1CD1CA05D70000919F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B32CD1CB1CA05D70000919F7 /* Checkers-mk2 */,
+				B32CD1E91CA05D70000919F7 /* Checkers-mk2Tests */,
+				B32CD1F41CA05D70000919F7 /* Checkers-mk2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B32CD1CA1CA05D70000919F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32CD1E41CA05D70000919F7 /* LaunchScreen.storyboard in Resources */,
+				B32CD1E11CA05D70000919F7 /* Assets.xcassets in Resources */,
+				B32CD1DF1CA05D70000919F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32CD1E81CA05D70000919F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32CD1F31CA05D70000919F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B32CD1C81CA05D70000919F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32CD1DC1CA05D70000919F7 /* GameViewController.m in Sources */,
+				B3348F591CAC5F8200CA828A /* GameOverScene.m in Sources */,
+				B38936251CA17FB300E919F5 /* CheckerPiece.m in Sources */,
+				B3348F501CAA8A0500CA828A /* Vector.m in Sources */,
+				B3348F561CAC473C00CA828A /* RulesScreen.m in Sources */,
+				B3348F531CAC371F00CA828A /* MenuScene.m in Sources */,
+				B32CD1D41CA05D70000919F7 /* AppDelegate.m in Sources */,
+				B32CD1D71CA05D70000919F7 /* GameScene.m in Sources */,
+				B32CD1D11CA05D70000919F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32CD1E61CA05D70000919F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32CD1EF1CA05D70000919F7 /* Checkers_mk2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32CD1F11CA05D70000919F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32CD1FA1CA05D70000919F7 /* Checkers_mk2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B32CD1EC1CA05D70000919F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B32CD1CB1CA05D70000919F7 /* Checkers-mk2 */;
+			targetProxy = B32CD1EB1CA05D70000919F7 /* PBXContainerItemProxy */;
+		};
+		B32CD1F71CA05D70000919F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B32CD1CB1CA05D70000919F7 /* Checkers-mk2 */;
+			targetProxy = B32CD1F61CA05D70000919F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B32CD1DD1CA05D70000919F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32CD1DE1CA05D70000919F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B32CD1E21CA05D70000919F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32CD1E31CA05D70000919F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B32CD1FC1CA05D70000919F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B32CD1FD1CA05D70000919F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B32CD1FF1CA05D70000919F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Checkers-mk2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LC.Checkers-mk2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B32CD2001CA05D70000919F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Checkers-mk2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LC.Checkers-mk2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B32CD2021CA05D70000919F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Checkers-mk2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LC.Checkers-mk2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Checkers-mk2.app/Checkers-mk2";
+			};
+			name = Debug;
+		};
+		B32CD2031CA05D70000919F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Checkers-mk2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LC.Checkers-mk2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Checkers-mk2.app/Checkers-mk2";
+			};
+			name = Release;
+		};
+		B32CD2051CA05D70000919F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Checkers-mk2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LC.Checkers-mk2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Checkers-mk2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B32CD2061CA05D70000919F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Checkers-mk2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LC.Checkers-mk2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Checkers-mk2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B32CD1C71CA05D70000919F7 /* Build configuration list for PBXProject "Checkers-mk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32CD1FC1CA05D70000919F7 /* Debug */,
+				B32CD1FD1CA05D70000919F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32CD1FE1CA05D70000919F7 /* Build configuration list for PBXNativeTarget "Checkers-mk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32CD1FF1CA05D70000919F7 /* Debug */,
+				B32CD2001CA05D70000919F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32CD2011CA05D70000919F7 /* Build configuration list for PBXNativeTarget "Checkers-mk2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32CD2021CA05D70000919F7 /* Debug */,
+				B32CD2031CA05D70000919F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32CD2041CA05D70000919F7 /* Build configuration list for PBXNativeTarget "Checkers-mk2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32CD2051CA05D70000919F7 /* Debug */,
+				B32CD2061CA05D70000919F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B32CD1C41CA05D70000919F7 /* Project object */;
+}
